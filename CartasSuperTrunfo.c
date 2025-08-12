@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 typedef struct {
     char codigo[4];        // ex: "A01" (3 chars + '\0')
     int populacao;         // população (int)
