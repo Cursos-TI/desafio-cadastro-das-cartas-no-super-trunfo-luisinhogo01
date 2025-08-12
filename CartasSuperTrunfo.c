@@ -5,6 +5,13 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
+typedef struct {
+    char codigo[4];        // ex: "A01" (3 chars + '\0')
+    int populacao;         // população (int)
+    float area;            // área (float)
+    float pib;             // PIB (float)
+    int pontos_turisticos; // número de pontos turísticos (int)
+} Carta;
 
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
